@@ -32,10 +32,10 @@ c.lexical: context [
 			| character-constant
 			| string-literal
 			| punctuator
-			| other-token
+			| other-pp-token
 		]
 
-		other-token: not-wsp
+		other-pp-token: not-wsp
 
 		;
 		; -- A.1.3 Identifiers
